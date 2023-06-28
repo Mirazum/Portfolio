@@ -1,0 +1,30 @@
+.link-1{
+    --i:1;
+  }
+  .link-2{
+    --i:2;
+  }
+  .link-3{
+    --i:3;
+  }
+  .link-4{
+    --i:4;
+  }
+  .link-5{
+    --i:5;
+  }
+.menu2 li a{
+    display: inline-block;
+    padding: 6px;
+    transition: 0.5s;
+    border-bottom: 3px solid rgba(37, 139, 180, 0); 
+    animation:  sliderTop .5s ease forwards;
+   animation-delay: calc(.2s * var(--i));
+  }
+
+  .menu2 li a:hover{
+  
+    border-bottom: 3px solid rgb(8, 177, 244);
+    }
+  
+   

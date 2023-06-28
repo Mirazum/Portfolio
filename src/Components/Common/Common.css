@@ -1,0 +1,185 @@
+.common-width{
+  width: 80%;
+  margin: auto;
+}
+
+#Contract{
+  background-image:linear-gradient(rgba(8, 16, 88, 0.607), rgba(0, 0, 0, 0.645)), url(../assast/Email-bg/email-gb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.connect-bg-color{
+  position: absolute;
+  left: 0;
+  top: -30px;
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(8, 16, 88, 0.607));
+}
+.nav-logo{
+  opacity: 0;
+  animation:  sliderRight 1s ease forwards;
+}
+
+.banner-fast-header-1{
+  opacity: 0;
+  animation:  sliderBottom 1s ease forwards;
+  animation-delay: .5s;
+}
+.banner-fast-header-2{
+  opacity: 0;
+  animation:  sliderTop 1s ease forwards;
+  animation-delay: .5s;
+}
+.banner-name{
+  opacity: 0;
+  animation:  sliderRight 1s ease forwards;
+  animation-delay: 1s;
+}
+.banner-p{
+  opacity: 0;
+  animation:  sliderLeft 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.button-box{
+  opacity: 0;
+  animation:  sliderTop 1s ease forwards;
+  animation-delay: 2s;
+}
+.banner-img{
+  opacity: 0;
+  animation:  zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+  animation-delay: 2s, 3s;
+}
+.service-card{
+  background-color: rgba(1, 23, 37, 0.714);
+  /* border: 2px solid #25c6f7; */
+  border-radius: 20px;
+  transition: 0.5s;
+  border: 2px solid rgba(1, 23, 37, 0.714);
+  cursor: pointer;
+}
+.service-card:hover{
+  /* background-color: rgba(1, 23, 37, 0.714); */
+  border: 2px solid #25c6f7;
+  transform: scale(1.02);
+
+}
+
+
+.read-btn{
+  background-color: #25c6f7;
+  padding: 6px 20px;
+  border-radius: 20px;
+  box-shadow: 15px 24px 21px -14px #25c6f7;
+  color: rgb(29, 29, 74);
+  margin-top: 15px;
+  
+
+}
+/* //connect us code  */
+.user-box{
+  position: relative;
+}
+.user-box input{
+  padding: 10px 5px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid ;
+  outline: none;
+  background: transparent;
+}
+.user-box input:focus{
+  border-bottom-color: #25c6f7;
+}
+.user-box label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: all 0.5s;
+}
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #25c6f7;
+  font-size: 13px;
+}
+.input-3{
+  background: transparent;
+}
+.email-shadow-set{
+  box-shadow: 0 0 10px #25c6f7;
+}
+
+/* KEYFRAMES ANIMATION  */
+@keyframes sliderRight {
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes sliderTop {
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes sliderBottom {
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes sliderLeft {
+  0%{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes floatImage {
+  0%{
+    transform: translateY(0);
+  
+  }
+  50%{
+    transform: translateY(-24px);
+    
+  }
+  100%{
+    transform: translateY(0);
+   
+  }
+}
+
+

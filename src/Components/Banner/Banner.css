@@ -1,0 +1,61 @@
+.main-bg{
+ height: 100vh;
+}
+.hire-btn{
+  box-shadow: 0 0 20px #25c6f7;
+  opacity: 0;
+  animation:  sliderLeft 1s ease forwards;
+  animation-delay: .5s;
+}
+.name{
+  color: #f72585;
+}
+.icon:hover{
+  color: rgb(20, 20, 43);
+  background-color: #25c6f7;
+  
+}
+.button{
+  text-align: center;
+}
+.button {
+  border: 3px solid #25c6f7;
+  transition: 0.5s;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button:hover{
+  color: rgb(20, 20, 43);
+  background-color: #25c6f7;
+ 
+}
+.button2 a{
+  padding: 8px 34px;
+  border: 3px solid #25c6f7;
+  background-color: #25c6f7;
+ transition: 0.5s;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+.shawo-set{
+  width: 384px;
+  height: 10px;
+  margin-bottom: 3px;
+  margin-left: 50px;
+  border: 2px solid #25c6f7;
+  border-radius: 20px;
+  background-color: #15c2f63f;
+  box-shadow: 0 0   40px #25c6f7;
+}
+.img-bg-overlay-set{
+  background: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.321));
+  border-radius: 50%;
+  filter: blur(90px);
+}
+
+

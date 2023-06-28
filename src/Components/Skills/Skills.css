@@ -1,0 +1,117 @@
+
+.skills h2{
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  /* color: black; */
+  font-size: 16px;
+}
+.progress-bar{
+  background: #959595;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress-bar div{
+  height: 10px;
+  border-radius: 5px;
+  width: 0px;
+  /* width: 50%; */
+  background: #25c6f7;
+}
+.progress-bar div span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  /* background: rgb(232, 232, 232); */
+  float: right;
+  margin-top: -10px;
+  margin-right: -20px;
+  /* color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #25c6f7;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.progress-bar div span:hover{
+ box-shadow: 0 0 10px #25c6f7;
+}
+
+.html{
+  background: red ;
+  animation:  html 1s linear forwards;
+}
+.css{
+  background: blue;
+  animation:  css 1s linear forwards;
+}
+.javascript{
+  background: yellow;
+  animation:  javascript 1s linear forwards;
+}
+.react{
+  background: green;
+  animation:  react 1s linear forwards;
+}
+.node{
+  background: rgb(122, 0, 128);
+  animation:  node 1s linear forwards;
+}
+.redux{
+  background: rgb(128, 45, 0);
+  animation:  redux 1s linear forwards;
+}
+.express{
+  background: green;
+  animation:  express 1s linear forwards;
+}
+.mongo{
+  background: red;
+  animation:  mongo 1s linear forwards;
+}
+
+
+
+@keyframes html{
+  100%{
+    width: 86%;
+  }
+}
+@keyframes css{
+  100%{
+    width: 74%;
+  }
+}
+@keyframes javascript{
+  100%{
+    width: 56%;
+  }
+}
+@keyframes react{
+  100%{
+    width: 69%;
+  }
+}
+@keyframes node{
+  100%{
+    width: 38%;
+  }
+}
+@keyframes redux{
+  100%{
+    width: 65%;
+  }
+}
+@keyframes express{
+  100%{
+    width: 58%;
+  }
+}
+@keyframes mongo{
+  100%{
+    width: 76%;
+  }
+}
