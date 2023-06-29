@@ -42,9 +42,9 @@ const Banner = () => {
             </h1>
             <p className='p-3 only:py-4 banner lg:mt-4 text-xl'>Transforming designs into digital wonders, frontend developers weave code with visual splendors.</p>
             <div className='social-icon flex gap-6 py-3'>
-              <a className='icon p-2 rounded-full border-sky-300' target="blank" href='https://www.facebook.com/mirazum.parvin'><FaFacebookF></FaFacebookF></a>
-              <a className='icon p-2 rounded-full' target="blank" href='https://www.linkedin.com/in/mirazum-parvin-6a08ba130/'><FaLinkedinIn></FaLinkedinIn></a>
-              <a className='icon p-2 rounded-full' target="blank" href='https://github.com/Mirazum?tab=repositories'><FaGithub></FaGithub></a>
+              <a className='icon p-2 ms-3  rounded-full ring ring-sky-300 ring-offset-base-100 ring-offset-2 border-sky-300' target="blank" href='https://www.facebook.com/mirazum.parvin'><FaFacebookF></FaFacebookF></a>
+              <a className='icon p-2  rounded-full ring ring-sky-300 ring-offset-base-100 ring-offset-2' target="blank" href='https://www.linkedin.com/in/mirazum-parvin-6a08ba130/'><FaLinkedinIn></FaLinkedinIn></a>
+              <a className='icon p-2  rounded-full ring ring-sky-300 ring-offset-base-100 ring-offset-2' target="blank" href='https://github.com/Mirazum?tab=repositories'><FaGithub></FaGithub></a>
 
             </div>
             <div className='w-full p-3 button-box flex items-center flex-col md:flex-row pt-9 gap-5 lg:pr-32'>
@@ -66,10 +66,8 @@ const Banner = () => {
               <div className='banner-blur'>
                 {/* blur background */}
               </div>
-              <img className='w-96 h-96 md:mt-5 md:ms-12' src={img} alt="" />
-              <div className='shawo-set'></div>
-              <div className='shawo-set'></div>
-              {/* <img className='w-full absolute bottom-[-20px] left-0' src={BannerBottom} alt="" /> */}
+              <img className='w-96 h-96 md:mt-5 md:ms-12 rounded-full  border-2 border-sky-300' src={img} alt="" />
+
             </div>
           </div>
         </div>
@@ -79,3 +77,4 @@ const Banner = () => {
 };
 
 export default Banner;
+

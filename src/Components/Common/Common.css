@@ -4,7 +4,7 @@
 }
 
 #Contract{
-  background-image:linear-gradient(rgba(8, 16, 88, 0.607), rgba(0, 0, 0, 0.645)), url(../assast/Email-bg/email-gb.jpg);
+  background-image:linear-gradient(rgba(8, 16, 88, 0.607), rgba(0, 0, 0, 0.645));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -24,11 +24,9 @@
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  /* background: rgb(232, 232, 232); */
-  float: right;
+ float: right;
   margin-top: -10px;
   margin-right: -20px;
-  /* color: black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,35 +39,36 @@
 }
 
 .html{
-  background: red ;
+ 
   animation:  html 1s linear forwards;
 }
 .css{
-  background: blue;
+
   animation:  css 1s linear forwards;
 }
 .javascript{
-  background: yellow;
+  
   animation:  javascript 1s linear forwards;
 }
 .react{
-  background: green;
+ 
   animation:  react 1s linear forwards;
 }
 .node{
-  background: rgb(122, 0, 128);
+
   animation:  node 1s linear forwards;
 }
-.redux{
-  background: rgb(128, 45, 0);
-  animation:  redux 1s linear forwards;
-}
+
 .express{
-  background: green;
+ 
   animation:  express 1s linear forwards;
 }
 .mongo{
-  background: red;
+
+  animation:  mongo 1s linear forwards;
+}
+.python{
+ 
   animation:  mongo 1s linear forwards;
 }
 
@@ -82,36 +81,36 @@
 }
 @keyframes css{
   100%{
-    width: 74%;
+    width: 80%;
   }
 }
 @keyframes javascript{
   100%{
-    width: 56%;
+    width: 50%;
   }
 }
 @keyframes react{
   100%{
-    width: 69%;
+    width: 75%;
   }
 }
 @keyframes node{
   100%{
-    width: 38%;
-  }
-}
-@keyframes redux{
-  100%{
-    width: 65%;
+    width: 35%;
   }
 }
 @keyframes express{
   100%{
-    width: 58%;
+    width: 50%;
   }
 }
 @keyframes mongo{
   100%{
-    width: 76%;
+    width: 65%;
+  }
+}
+@keyframes python{
+  100%{
+    width: 75%;
   }
 }

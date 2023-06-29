@@ -40,18 +40,6 @@
   text-align: center;
 }
 
-
-
-.shawo-set{
-  width: 384px;
-  height: 10px;
-  margin-bottom: 3px;
-  margin-left: 50px;
-  border: 2px solid #25c6f7;
-  border-radius: 20px;
-  background-color: #15c2f63f;
-  box-shadow: 0 0   40px #25c6f7;
-}
 .img-bg-overlay-set{
   background: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.321));
   border-radius: 50%;

@@ -1,16 +1,13 @@
-
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import '../Common/Common.css';
 import Swal from 'sweetalert2'
-// import Email from "../../assast/Email-bg/email.jpg"
 import { ImLocation2 } from 'react-icons/im';
 import { FiPhoneCall } from 'react-icons/fi';
 import { HiOutlineMailOpen } from 'react-icons/hi';
-import './ContactCard'
-
+import '../Common/common.css'
+import ContactCard from './ContactCard/ContactCard';
 
 const Contact = () => {
+
   const [disable, setDisable] = useState(false)
   const form = useRef();
   const headphones = <ImLocation2></ImLocation2>;
@@ -21,7 +18,7 @@ const Contact = () => {
     {
       id: 1,
       name: 'Address',
-      description: "Ida Albergintie 1, Helsinki",
+      description: "Ida Albergintie, Helsinki, Finland",
       icon: headphones,
       bgClass: 'text-sky-300'
     },
@@ -35,12 +32,11 @@ const Contact = () => {
     {
       id: 3,
       name: 'Email',
-      description: "mira.sust@gmail.com",
+      description: "mira.sust@gamil.com",
       icon: Googlemessages,
-      bgClass: 'text-sky-300'
+      bgClass: 'text-primary'
     },
   ]
-
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -65,11 +61,14 @@ const Contact = () => {
   return (
     <div id='Contract' className='lg:my-28 relative lg:py-14'>
       <div className='connect-bg-color h-16 lg:h-32 '>
-
+        {/* bg-set */}
       </div>
       <div className='common-width'>
         <div className=''>
+          <div className='text-center mb-10'>
+            <h1 className='text-center text-5xl font-semibold py-4'><span className='text-sky-300'>C</span>ontract <span className='text-sky-300'>M</span>e</h1>
 
+          </div>
 
           {/* projects card  */}
           <div className='contract flex flex-col-reverse md:flex-row gap-6  my-5 pt-9'>
@@ -88,9 +87,7 @@ const Contact = () => {
               <div className="card email-shadow-set lg:w-3/4 py-5 my-4 lg:my-6 mx-auto">
                 <div className='flex items-center flex-col justify-center'>
                   <div className="avatar">
-                    <div className="w-14 lg:w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                      {/* <img src={Email} alt="" /> */}
-                    </div>
+
                   </div>
                   <p className='mt-2  text-3xl font-bold'>Send Email</p>
                 </div>

@@ -11,7 +11,7 @@ const ServiceCard = ({ card }) => {
 
   return (
     <div data-aos="fade-up" data-aos-duration="3500" >
-      <div className='text-center service-card p-6 pb-8 h-80'>
+      <div className='text-center service-card p-6 pb-8 '>
         <div className={`text-center flex justify-center items-center py-4 lg:py-6 text-6xl ${bgClass}`}>
           {icon}
         </div>

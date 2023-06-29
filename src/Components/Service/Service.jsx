@@ -40,7 +40,7 @@ const Services = () => {
       <div className='pt-24'>
         <div className='text-center'>
           <h1 className='text-center text-5xl font-semibold py-4'><span className='text-sky-300'>M</span>y Serv<span className='text-sky-300'>i</span>ces</h1>
-          <p className='md:w-3/4 mx-auto mb-2'>Our web developer services offer expertise in building and maintaining dynamic and responsive websites, including e-commerce, content management systems, and web applications. Contact us to discuss your project.</p>
+          <p className='md:w-3/4 mx-auto mb-2'> By combining my proficiency in both web development and data analysis, I offer a unique skill set that brings immense value to any project or organization. I am not merely limited to developing beautiful websites, but I can also harness the power of data to enhance user experiences, improve business processes, and drive growth.</p>
         </div>
 
         {/* projects card  */}

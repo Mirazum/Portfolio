@@ -10,7 +10,7 @@ const Skills = () => {
       <div className='common-width py-12'>
         <div className='text-center'>
           <h1 className='text-center text-4xl lg:text-5xl font-semibold py-4'>MY <span className='text-primary'>SKILLS</span></h1>
-          <p className='md:w-3/4 mx-auto'>I have been involved in web development since last  years and gained technical knowlwdge in this field.</p>
+          <p className='md:w-3/4 mx-auto'>I'm a versatile professional skilled in both web development and data analysis. With my expertise, I can help businesses thrive in the digital realm by creating stunning and functional websites while harnessing the power of data.</p>
         </div>
         <div className='main-container flex flex-col md:flex-row'>
 
@@ -46,6 +46,11 @@ const Skills = () => {
               <div data-aos="fade-up-right" className='progress-bar'>
                 <div className='mongo'><span className='bg-base-100 text-xs'>65%</span></div>
               </div>
+              <h2>Python</h2>
+              <div data-aos="fade-up-right" className='progress-bar'>
+                <div className='python'><span className='bg-base-100 text-xs'>75%</span></div>
+              </div>
+
             </div>
           </div>
 

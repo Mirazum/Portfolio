@@ -11,14 +11,14 @@ const ProjectCard = ({ img, title, d0, d1, glink, slink, llink }) => {
 
   return (
     <div className="card-b border-b-8 border-b-green-500 w-full shadow-xl">
-      <figure>
+      <figure className='flex items-center justify-center'>
         <img src={img} className="card-image w-64 h-52 rounded-xl " alt="Shoes" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{d0}</p>
         <hr />
-        <div className='w-full h-44'>
+        <div className='w-full '>
           <p className="text-gray-400 ">
             {showFullDescription ? d1 : (d1?.substring(0, 100) + (d1?.length > 100 ? '...' : ''))}
             {d1?.length > 100 && (
@@ -32,7 +32,7 @@ const ProjectCard = ({ img, title, d0, d1, glink, slink, llink }) => {
         <hr />
         <div className="card-actions mt-3 ">
           <div className="badge badge-primary p-2">
-            <a href={glink}>Client Side</a>
+            <a href={glink}><span className='text-bold'>Client Side</span></a>
           </div>
           <div className="badge badge-accent p-2">
             <a href={slink}>Server Side</a>
