@@ -32,7 +32,7 @@ Testimonials:
 Don't just take my word for it! I am proud to have received positive feedback from clients and colleagues throughout my career.
 Their testimonials highlight my professionalism, technical prowess, and ability to deliver high-quality results. You can find a selection of these testimonials within this portfolio, giving you an insight into the experiences of those who have worked with me.
 
-Conclusion:
+
 Thank you for taking the time to explore my web developer portfolio. I hope that through this collection of projects, skills, and testimonials, you have gained a clear understanding of my capabilities and dedication as a web developer. 
 I am excited about the opportunity to collaborate with you and bring your web development vision to life. Please feel free to reach out to me with any inquiries or project proposals.
 
@@ -41,5 +41,4 @@ Happy exploring!
 Mirazum Parvin
 ------------------------------------------------------
 
-Feel free to customize this speech based on your specific experiences and achievements as a web developer. Describe Your Work Process: Briefly explain your approach to web development. Discuss how you gather requirements, plan and design websites, and collaborate with clients or team members. Mention any agile or iterative methodologies you follow, as well as your ability to work within deadlines.
 
