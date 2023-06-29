@@ -9,8 +9,8 @@ const Skills = () => {
     <div id='Skills' className='skills-bg lg:pt-5'>
       <div className='common-width py-12'>
         <div className='text-center'>
-          <h1 className='text-center text-4xl lg:text-5xl font-semibold py-4'>MY <span className='text-primary'>SKILLS</span></h1>
-          <p className='md:w-3/4 mx-auto'>I'm a versatile professional skilled in both web development and data analysis. With my expertise, I can help businesses thrive in the digital realm by creating stunning and functional websites while harnessing the power of data.</p>
+          <h1 className='text-center text-4xl lg:text-5xl font-semibold py-10'>MY <span className='text-primary'>SKILLS</span></h1>
+          <p className='md:w-3/4 mx-auto mb-2'>I'm a versatile professional skilled in both web development and data analysis. With my expertise, I can help businesses thrive in the digital realm by creating stunning and functional websites while harnessing the power of data.</p>
         </div>
         <div className='main-container flex flex-col md:flex-row'>
 

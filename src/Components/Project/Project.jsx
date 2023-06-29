@@ -10,8 +10,8 @@ const Projects = () => {
   return (
     <div id='Projects' className="px-2 lg:px-0 pb-12 pt-24 my-24 mx-auto" style={{ width: '80%' }}>
       <div className='text-center'>
-        <h1 className='text-center text-4xl lg:text-5xl font-semibold py-4'>MY <span className='text-sky-300'>PROJECTS</span></h1>
-        <p className='md:w-3/4 mx-auto text-center'>I have been involved in web development since last  years and have completed many projects here are some of my completed projects.</p>
+        <h1 className='text-center text-4xl lg:text-5xl font-semibold py-10'>MY <span className='text-sky-300'>PROJECTS</span></h1>
+        <p className='md:w-3/4 mx-auto text-center mb-2'>The Integrated Data Analysis and Web Development Project aims to deliver a powerful and user-friendly platform that allows users to explore and interact with valuable data insights. By combining the strengths of data analysis and web development, this project provides an integrated solution that empowers decision-making, facilitates data-driven discoveries, and enhances the accessibility of complex information..</p>
       </div>
 
       <div className="">

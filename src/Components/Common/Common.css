@@ -53,14 +53,14 @@
 }
 .service-card{
   background-color: rgba(1, 23, 37, 0.714);
-  /* border: 2px solid #25c6f7; */
+  
   border-radius: 20px;
   transition: 0.5s;
   border: 2px solid rgba(1, 23, 37, 0.714);
   cursor: pointer;
 }
 .service-card:hover{
-  /* background-color: rgba(1, 23, 37, 0.714); */
+  
   border: 2px solid #25c6f7;
   transform: scale(1.02);
 

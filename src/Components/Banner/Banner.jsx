@@ -65,8 +65,10 @@ const Banner = () => {
               <div className='absolute img-bg-overlay-set w-full h-full '></div>
               <div className='banner-blur'>
                 {/* blur background */}
+              </div >
+              <div className='flex items-center justify-center'>
+                <img className='w-96 h-96 md:mt-5 md:ms-12 rounded-full  border-2 border-sky-300' src={img} alt="" />
               </div>
-              <img className='w-96 h-96 md:mt-5 md:ms-12 rounded-full  border-2 border-sky-300' src={img} alt="" />
 
             </div>
           </div>
@@ -77,4 +79,5 @@ const Banner = () => {
 };
 
 export default Banner;
+
 
