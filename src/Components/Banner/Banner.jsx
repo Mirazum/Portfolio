@@ -15,7 +15,7 @@ const Banner = () => {
         <div className='common-width flex flex-col-reverse items-center justify-center md:flex-row h-auto  lg:-h-screen'>
           <div className='w-full'>
             <h1 className='banner-fast-header-1 p-2 text-2xl lg:text-3xl lg:pt-32 lg:pb-4 font-bold'>Hello, This is</h1>
-            <h1 className='banner-name p-3 text-3xl lg:text-4xl mb-2 lg:pb-4 font-bold'><span className='text-sky-300'><Typewriter
+            <h1 className='banner-name p-3 text-3xl lg:text-4xl  lg:pb-4 font-bold'><span className='text-sky-300'><Typewriter
               words={['Mirazum Parvin']}
 
               cursor
