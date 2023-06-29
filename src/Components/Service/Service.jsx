@@ -37,7 +37,7 @@ const Services = () => {
   ]
   return (
     <div id='Services' className='common-width '>
-      <div className='pt-32 lg:pt-2'>
+      <div className='pt-40 lg:pt-1'>
         <div className='text-center'>
           <h1 className='text-center text-5xl font-semibold py-10'><span className='text-sky-300'>M</span>y Serv<span className='text-sky-300'>i</span>ces</h1>
           <p className='md:w-3/4 mx-auto mb-2'> By combining my proficiency in both web development and data analysis, I offer a unique skill set that brings immense value to any project or organization. I am not merely limited to developing beautiful websites, but I can also harness the power of data to enhance user experiences, improve business processes, and drive growth.</p>
