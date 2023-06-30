@@ -42,7 +42,7 @@ const Projects = () => {
             img={auto}
             d0={`🕵️‍♀️Technology Used: python`}
             d1={`Perform an initial exploration of the dataset to gain insights and understand the data's characteristics. This step involves summarizing the data using descriptive statistics, visualizing the variables through histograms, scatter plots, or box plots, and identifying patterns, trends, or relationships within the data. Create new features or modify existing ones to improve the dataset's representation. This can involve techniques like scaling, normalization, one-hot encoding, or creating interaction variables. Feature engineering aims to enhance the predictive power of the dataset.`}
-
+            glink={`https://github.com/Mirazum/ML_Automobile-dataset`}
 
           />
         </div>

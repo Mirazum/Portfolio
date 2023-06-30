@@ -1,5 +1,5 @@
 .main-bg{
- height: 100vh;
+ height: 85vh;
 }
 .hire-btn{
   box-shadow: 0 0 20px #25c6f7;
@@ -47,3 +47,8 @@
 }
 
 
+@media screen and (max-width:577px){
+  .main-bg{
+    height: 100vh;
+  }
+}
