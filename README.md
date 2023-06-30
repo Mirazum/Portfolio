@@ -26,15 +26,10 @@ frameworks, libraries, and tools. These skills enable me to tackle complex chall
 
 Work Process:
 When it comes to web development, I believe in a collaborative and iterative approach. I work closely with clients and team members to gather requirements, 
-plan and design websites, and ensure that every step aligns with the project's objectives. My commitment to agile methodologies and effective communication allows me to deliver 
-projects on time and exceed client expectations.
+plan and design websites, and ensure that every step aligns with the project's objectives. My commitment to agile methodologies and effective communication allows me to deliver projects on time and exceed client expectations.
 
-Testimonials:
-Don't just take my word for it! I am proud to have received positive feedback from clients and colleagues throughout my career.
-Their testimonials highlight my professionalism, technical prowess, and ability to deliver high-quality results. You can find a selection of these testimonials within this portfolio, giving you an insight into the experiences of those who have worked with me.
+Thank you for taking the time to explore my web developer portfolio. I hope that through this collection of projects, and skills, you have gained a clear understanding of my capabilities and dedication as a web developer. 
 
-
-Thank you for taking the time to explore my web developer portfolio. I hope that through this collection of projects, skills, and testimonials, you have gained a clear understanding of my capabilities and dedication as a web developer. 
 I am excited about the opportunity to collaborate with you and bring your web development vision to life. Please feel free to reach out to me with any inquiries or project proposals.
 
 Happy exploring!
